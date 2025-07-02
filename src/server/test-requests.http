@@ -1,0 +1,6 @@
+### Test API Requests
+@baseUrl = http://localhost:8000/api/v1
+
+### Get list of all users
+GET {{baseUrl}}/users
+Accept: application/json
